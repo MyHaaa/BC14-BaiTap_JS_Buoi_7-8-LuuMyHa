@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+}
+.hide{
+    display: none;
+}
+header{
+    background-color: rgb(249,247,254);
+}
+header .title{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.array{
+    margin-bottom: 50px;
+}
+.form-group input{
+    outline: none;
+    box-shadow: none;
+}
+.form-group input:hover{
+    outline: none;
+    border: 1px solid rgb(233, 32, 66);
+}
+.form-group input:focus{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid rgb(233, 32, 66);
+}
+.form form{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.form-result p{
+    padding: 0 35px;
+}
+.choice{
+    position: relative;  
+    z-index: 999;
+    height: 220px;
+    margin-bottom: 10px;
+}
+.choice h3{
+    background-color: white;
+    margin-bottom: 50px;
+    z-index: 9;
+    width: fit-content;
+    margin-left: 10px;
+    text-align: left;
+}
+.btn-group{
+    border: 1px solid black;
+    width: 80%;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    z-index: -1;
+}
+.result{
+    position: relative;
+    height: 100px;
+}
+.result h3{
+    background-color: white;
+    margin-bottom: 10px;
+    z-index: 9;
+    width: fit-content;
+    margin-left: 10px;
+    text-align: left;
+}
+.result-content p{
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+.result-content{
+    border: 1px solid black;
+    border-radius: 10px;
+
+    position: absolute;
+    top:20px;
+    z-index: -1;
+    width: 100%;
+}
+#doubleForm{
+    margin-top: 200px;
+    position: relative;
+    height: 160px;
+}
+#doubleForm h3{
+    background-color: white;
+    margin-bottom: 10px;
+    z-index: 9999;
+    margin-left: 10px;
+    text-align: left;
+    
+
+    position: absolute;
+    top:-20px;
+    width: 100%;
+}
+#doubleForm form{
+    padding: 10px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    
+}
