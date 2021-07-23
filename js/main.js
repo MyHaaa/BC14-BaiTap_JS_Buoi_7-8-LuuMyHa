@@ -240,11 +240,11 @@ document.getElementById('btnResetDouble').addEventListener('click', function(){
 function countInterger(){
     var countInt = 0;
     for (let i = 0; i < arrayDouble.length; i++) {
-        if(Number.isInteger(array[i])){
+        var temp = arrayDouble[i] - Math.floor(arrayDouble[i])
+        if(temp == 0){
             countInt++;
-        }      
+        }
     }
     var resultOutput = document.getElementById('result');
     resultOutput.innerHTML = countInt;
 }
-console.log(Math.round(1.5))
